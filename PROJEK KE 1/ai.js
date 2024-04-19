@@ -7,7 +7,7 @@ function askQuestion() {
         "apakah kamu Bisa merasa senang?" : "Tidak,Tuan Saya Menciptakan Saya Khusus Menjawab Pertanyaan, Terlebih Saya Tidak Dirancang untuk berekspresi dan merasan sesuatu,Tetapi Mungkin Suatu Hari akan ada AI Yang Bisa Bereskpresi Seperti Manusia.",
         "baik": "Baguslah Kalau Begitu,Apakah Ada Yang Bisa Saya Tolong?",
         "apakah kamu menyukai seseorang?" : "Maaf Saya Tidak Mengerti apa Itu Arti Suka",
-        "Siapa Nama Pembuatu Kamu?" : "Nama Pembuat Saya Adalah akunsete atau Susanto,Yang Menciptakan Saya Untuk Membantu Orang Dalam Merespon Jawaban.",
+        "siapa nama pembuatu kamu?" : "Nama Pembuat Saya Adalah akunsete atau Susanto,Yang Menciptakan Saya Untuk Membantu Orang Dalam Merespon Jawaban.",
         "siapa nama kamu?": "Saya adalah AI Assistant.",
         "tidak ada": "Baiklah Kalau Begitu,Jangan Ragu-Ragu untuk Bertanya Kepada Saya😊😊😊",
         // Daftar pertanyaan dan respons tambahan
