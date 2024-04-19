@@ -4,7 +4,7 @@ function askQuestion() {
 
     let responses = {
         "apa kabar?": "Saya baik, terima kasih! Bagaimana dengan Anda?",
-        "apakah kamu Bisa merasa senang?" : "Tidak,Tuan Saya Menciptakan Saya Khusus Menjawab Pertanyaan, Terlebih Saya Tidak Dirancang untuk berekspresi dan merasan sesuatu,Tetapi Mungkin Suatu Hari akan ada AI Yang Bisa Bereskpresi Seperti Manusia.",
+        "apakah kamu bisa merasa senang?" : "Tidak,Tuan Saya Menciptakan Saya Khusus Menjawab Pertanyaan, Terlebih Saya Tidak Dirancang untuk berekspresi dan merasan sesuatu,Tetapi Mungkin Suatu Hari akan ada AI Yang Bisa Bereskpresi Seperti Manusia.",
         "baik": "Baguslah Kalau Begitu,Apakah Ada Yang Bisa Saya Tolong?",
         "apakah kamu menyukai seseorang?" : "Maaf Saya Tidak Mengerti apa Itu Arti Suka",
         "siapa nama pembuatu kamu?" : "Nama Pembuat Saya Adalah akunsete atau Susanto,Yang Menciptakan Saya Untuk Membantu Orang Dalam Merespon Jawaban.",
