@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QRT AI</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ2CkrUkLVuaTZJ7M9XQBdUjUVKuplq-0MvQ&s" type="image/png">
+    <link rel="stylesheet" href="ai.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <img width="40px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ2CkrUkLVuaTZJ7M9XQBdUjUVKuplq-0MvQ&s" alt="AI Logo" class="logo">
+            <h1>QRT AI <a href="clue.html"><i class="fa-solid fa-question"></i></a></h1>
+        </div>
+        <div class="chat-box" id="chatBox"></div>
+        <div class="chat-input">
+            <div class="chat-box" id="chatBox">
+                <div class="message ai-message">
+                    <span class="message-text">Selamat Datang Di QRT AI! Ada Yang Bisa Saya Bantu?</span>
+                </div>
+            </div>            
+            <input type="text" id="userInput" placeholder="Tanyakan sesuatu...">
+            <button onclick="askQuestion()">Tanya</button>
+        </div>
+    </div>
+    <script src="ai.js"></script>
+</body>
+</html>

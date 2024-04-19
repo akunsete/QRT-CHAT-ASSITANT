@@ -1,0 +1,281 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #d5d5d5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #2780e3;
+    color: #fff;
+    border: 2px solid rgb(71, 62, 62);
+    padding: 14px;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    font-size: 22px;
+  }
+
+  .navbar-logo span {
+    font-weight: 700;
+  }
+  
+  .navbar-menu {
+    margin-top: 20px;
+    display: flex;
+    list-style: none;
+  }
+  
+  .navbar-menu li {
+    margin-right: 20px;
+  }
+  
+  .navbar-menu li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .navbar-menu li a:hover {
+    width: 100%;
+    padding: 5px;
+    background-color: rgba(109, 109, 109, 0.6);
+    border: 1.6px solid black;
+    border-radius: 5px;
+  }
+  
+  .navbar-search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-search input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  .navbar-search button {
+    background-color: #13b50b;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    padding: 5px 8px;
+    cursor: pointer;
+  }
+
+  .navbar-search button:hover {
+    background-color: rgba(34, 102, 7, 0.9);
+  }
+  
+
+  /* Hamburger Menu */
+  .navbar-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .navbar-toggle span {
+    height: 2px;
+    width: 25px;
+    background-color: #fff;
+    margin: 3.8px 0;
+  }
+
+ .fa-brands {
+    background-color: #f44336;
+    padding: 12px;
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    border-radius: 80%;
+    width: 24px;
+    height: 20px;
+  }
+
+  .fa-brands:hover {
+    background-color: #13b50b;
+  }
+  
+  .fa-wifi {
+    background-color: #f44336;
+    padding: 12px;
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    border-radius: 90%;
+    width: 28px;
+    height: 22px;
+  }
+
+  .fa-wifi:hover {
+    background-color: #13b50b;
+  }
+
+  .content {
+    background-color: #1967be;
+    color: #fff;
+    padding: 20px 15px;
+    text-align: left; /* Mengatur konten berada di sebelah kiri */
+    transition: opacity 0.5s ease; /* Transisi untuk animasi konten */
+    opacity: 1; /* Nilai default opasitas */
+  }
+  
+  .fa-brands,
+  .fa-wifi {
+    float: right;
+    margin-left: 10px; /* Menambahkan jarak antara ikon dan teks */
+  }  
+
+  .fa-brands:hover,
+  .fa-wifi:hover {
+  transform: rotate(360deg); /* Berputar 360 derajat saat dihover */
+  transition: transform 0.6s ease; /* Efek transisi selama 0.6 detik */
+  }
+
+  .marquee {
+    padding: 11px;
+    background-color: #2f2f2f;
+    color: #fff;
+    border-radius: 1.4px;
+    box-shadow: 1px 2px 6px rgb(0, 0, 0);
+  }
+  
+  .isi1 {
+    background-color: #2f2f2f;
+  }
+
+  .isi2 {
+    background-color: #2f2f2f;
+  }
+
+  .price-card {
+    margin: auto;
+    width: 80%;
+    padding: 12px;
+    background-color: #ff7518;
+    border-radius: 8px;
+    border: 2px solid #ff5c00;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    color: #ffff;
+    font-weight: 600;
+    font-size: 24px;
+  }
+  
+  .content1 {
+    margin: auto;
+    width: 80%;
+    padding: 18px;
+    background-color: #fff7f7;
+    border-radius: 4px;
+    text-align: left;
+  }
+  
+  .price {
+    font-size: 50px;
+    font-weight: 400;
+  }
+  
+  .content1 ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .content1 li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .content1 li:last-child {
+    border-bottom: none;
+  }
+  
+  .content1 li i {
+    margin-right: 10px;
+  }
+  
+  .cta-button {
+    background-color: #ff5c00;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #ff7d3d;
+  }
+  
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .navbar-container {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 11px;
+    }
+  
+    .navbar-logo {
+      margin-bottom: 10px;
+    }
+  
+    .navbar-menu {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      padding: 0;
+      margin: 10px 0;
+    }
+  
+    .navbar-menu li {
+      margin: 10px 0;
+    }
+  
+    .navbar-menu.active {
+      display: flex;
+    }
+  
+    .navbar-toggle {
+        margin-top: 20px;
+      display: flex;
+    }
+
+    .navbar-search {
+        display: block;
+      }
+
+        /* Menyembunyikan ikon pada layar kecil */
+  }
+  
+  /* CSS untuk tata letak dekstop */
+@media screen and (min-width: 768px) {
+  .price-card {
+    width: 40%; /* Lebar price card ketika layar lebih besar dari 768px */
+  }
+
+  .content1 {
+    width: 80%; /* Lebar konten di dalam price card pada layar dekstop */
+  }
+  
+}
